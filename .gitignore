@@ -1,0 +1,7 @@
+node_modules/
+vendor/
+.env
+storage/*.key
+Homestead.yaml
+Homestead.json
+.phpunit.result.cache
