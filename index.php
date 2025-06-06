@@ -19,7 +19,6 @@ if ($conn->connect_error) {
 }
 echo "Подключение к базе данных успешно!";
 
-// Пример запроса
 $result = $conn->query("SELECT * FROM drugs");
 while ($row = $result->fetch_assoc()) {
     print_r($row);
